@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFEB3B">
+
+        <TextView
+            android:id="@+id/tv_Titre"
+            android:layout_width="205dp"
+            android:layout_height="43dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="110dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="97dp"
+            android:text="TIC TAC TOE !"
+            android:textColor="#E91E63"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/tbox_nom1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="88dp"
+            android:layout_marginLeft="88dp"
+            android:layout_marginTop="280dp"
+            android:ems="10"
+            android:hint="Nom de joueur 1 :"
+            android:inputType="textPersonName"
+            android:textColor="#E91E63" />
+
+        <EditText
+            android:id="@+id/tbox_nom2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="88dp"
+            android:layout_marginLeft="88dp"
+            android:layout_marginTop="396dp"
+            android:ems="10"
+            android:hint="Nom de joueur 2 :"
+            android:inputType="textPersonName"
+            android:textColor="#E91E63" />
+
+        <Button
+            android:id="@+id/btn_jouer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="148dp"
+            android:layout_marginRight="148dp"
+            android:layout_marginBottom="127dp"
+            android:text="JOUER !"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+</LinearLayout>
